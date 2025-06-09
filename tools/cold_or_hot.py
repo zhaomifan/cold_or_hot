@@ -34,9 +34,3 @@ class ColdOrHot(Enum):
     @classmethod
     def from_value(cls, value: int):
         return cls.COLD if value & 1 == 0 else cls.HOT
-
-
-if __name__ == '__main__':
-    e = ColdOrHot.from_value(1)
-    print(e.name.lower())
-    print(e.value)

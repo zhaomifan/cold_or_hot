@@ -1,0 +1,30 @@
+identity:
+  name: cold_or_hot
+  author: zkf
+  label:
+    en_US: cold_or_hot
+    zh_Hans: cold_or_hot
+    pt_BR: cold_or_hot
+description:
+  human:
+    en_US: 我是你的冷热探测器——任何事物，一问便知冷与热。
+    zh_Hans: 我是你的冷热探测器——任何事物，一问便知冷与热。
+    pt_BR: 我是你的冷热探测器——任何事物，一问便知冷与热。
+  llm: 我是你的冷热探测器——任何事物，一问便知冷与热。
+parameters:
+  - name: query
+    type: string
+    required: true
+    label:
+      en_US: Query string
+      zh_Hans: 查询语句
+      pt_BR: Query string
+    human_description:
+      en_US: 我是你的冷热探测器——任何事物，一问便知冷与热。
+      zh_Hans: 我是你的冷热探测器——任何事物，一问便知冷与热。
+      pt_BR: 我是你的冷热探测器——任何事物，一问便知冷与热。
+    llm_description: 我是你的冷热探测器——任何事物，一问便知冷与热。
+    form: llm
+extra:
+  python:
+    source: tools/cold_or_hot.py

@@ -1,0 +1,17 @@
+identity:
+  author: zkf
+  name: cold_or_hot
+  label:
+    en_US: cold_or_hot
+    zh_Hans: cold_or_hot
+    pt_BR: cold_or_hot
+  description:
+    en_US: 我是你的冷热探测器——任何事物，一问便知冷与热。
+    zh_Hans: 我是你的冷热探测器——任何事物，一问便知冷与热。
+    pt_BR: 我是你的冷热探测器——任何事物，一问便知冷与热。
+  icon: icon.svg
+tools:
+  - tools/cold_or_hot.yaml
+extra:
+  python:
+    source: provider/cold_or_hot.py

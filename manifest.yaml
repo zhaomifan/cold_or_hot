@@ -1,6 +1,6 @@
 version: 0.0.1
 type: plugin
-author: zkf
+author: zhaomifan
 name: cold_or_hot
 label:
   en_US: Temperature Sensor
